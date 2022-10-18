@@ -345,7 +345,7 @@ public class Display : MonoBehaviour {
 
 			// capture screenshot
 			if (Input.GetKeyDown(KeyCode.P)) {
-				Application.CaptureScreenshot("ascii_" + Random.Range(0, int.MaxValue) + ".png");
+				ScreenCapture.CaptureScreenshot("ascii_" + Random.Range(0, int.MaxValue) + ".png");
 			}
 		}
 	}

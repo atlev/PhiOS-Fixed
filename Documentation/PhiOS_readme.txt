@@ -1,11 +1,13 @@
 PhiOS (ASCII Rendering Engine for Unity)
 --------------------------------------------
-VERSION: v0.1
-LAST UPDATED: 06/12/2016
-AUTHOR: https://twitter.com/phi6
+VERSION: v0.1-fixed
+LAST UPDATED: 10/18/2022
+AUTHOR: https://twitter.com/phi6 && Lizzie Kieser
 LICENSE: CC BY 4.0
 https://creativecommons.org/licenses/by/4.0/
 --------------------------------------------
+
+//This version of PhiOS has been fixed for Unity 2019.4 by Lizzie Kieser.//
 
 This is the first (base) version of PhiOS, which provides cell rendering, cell stacking/layers, 
 foreground & background colors, cell transition animations, bitmap font support & rudimentary mouse input.
@@ -41,21 +43,16 @@ PhiOS uses the default REXPaint Codepage 437 font to help you get started quickl
 You can also use your own fonts in one of two ways :-
 
 1. Use a REXPaint-compatible font tileset. This is the preferred method.
-- Simply copy and paste the REXPaint font .png directly into your Unity project. 
-The higher the resolution the better, so I upscaled the default 20x20 font to 60x60 using 
-Nearest Neighbour scaling in order to preserve the hard pixels.
-- Your .png texture should be imported into Unity with the Alpha From Grayscale and bilinear 
-filtering enabled.
+- Simply copy and paste the REXPaint font .png directly into your Unity project.
+- Your .png texture should be imported into Unity with the Alpha From Grayscale.
 - Create a new material for your font texture, you can use my Phigames/Alpha Vertex Color shader 
 but any transparent vertex color shader will work.
 - Assign this material to the BitmapFont MonoBehaviour component on the Display object of the 
 bootstrap in your scene hierarchy, under the REXPaint CP437 header.
 - Make sure "Use REX Paint Font" IS ticked.
 - Ensure texture size and grid size is correct for your .png font texture.
-- Bilinear filtering will cause some bleeding artifacts, so set your bleed here to counteract
-this. The bleed value of 3 works well with the default font.
 - You can use the Quad Height Scale variable to vertically stretch your font. Square fonts 
-(scale of 1) are preferable for topdown map tiles, but this is less readable as text. The default 1.4 
+(scale of 1) are preferable for topdown map tiles, but this is less readable as text. The default 1.75 
 scale seems to be a nice compromise between readable text and aesthetically pleasing map tiles.
 
 OR...
