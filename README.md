@@ -1,16 +1,16 @@
-# PhiOS (ASCII Rendering Engine for Unity)
+# PhiOS (ASCII Rendering Engine for Unity) - Fixed
 ![Sample GIF](https://github.com/codyjb/PhiOS/blob/master/Documentation/ezgif-4-5ea6d2a713.gif)
 
-I  am _not_ the original creator of this Library.
+I  am _not_ the original creator of this Library. This has been fixed by Lizzie Kieser to support Unity 2019.4.
 
 Pasting to GitHub for Visibility and Maintainability.
 
 Refer to license details
 
 ***
-[Usage Details](https://github.com/codyjb/PhiOS/wiki)
+[Usage Details](https://github.com/leverine36/PhiOS-Fixed/wiki)
 
-[Latest Release](https://github.com/codyjb/PhiOS/releases/latest)
+[Latest Release](https://github.com/leverine36/PhiOS-Fixed/releases/latest)
 ***
 
 This is the first (base) version of PhiOS, which provides cell rendering, cell stacking/layers,
