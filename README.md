@@ -8,9 +8,9 @@ Pasting to GitHub for Visibility and Maintainability.
 Refer to license details
 
 ***
-[Usage Details](https://github.com/leverine36/PhiOS-Fixed/wiki)
+[Usage Details](https://github.com/atlev/PhiOS-Fixed/wiki)
 
-[Latest Release](https://github.com/leverine36/PhiOS-Fixed/releases/latest)
+[Latest Release](https://github.com/atlev/PhiOS-Fixed/releases/latest)
 ***
 
 This is the first (base) version of PhiOS, which provides cell rendering, cell stacking/layers,
