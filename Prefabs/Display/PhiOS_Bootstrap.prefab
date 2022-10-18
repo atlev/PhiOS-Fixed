@@ -9,8 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000011286441928}
-  - component: {fileID: 114000012485805544}
-  - component: {fileID: 114000013610232378}
+  - component: {fileID: 2167987422418258909}
+  - component: {fileID: 2458794350035379967}
   m_Layer: 5
   m_Name: Display
   m_TagString: Untagged
@@ -34,7 +34,7 @@ Transform:
   m_Father: {fileID: 4000010040037034}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000012485805544
+--- !u!114 &2167987422418258909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,17 +43,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010750167884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a39cd4a82b79dd4e9ce59ed0d1e5466, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a7c66e93c6f3b44796a8bc2b8e5a6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bitmapFontXml: {fileID: 4900000, guid: 0496e0ed0af0c914e955dadac36fe312, type: 3}
-  bitmapFontMaterial: {fileID: 2100000, guid: 43f4a1196e928b441895d3b6d3519e19, type: 2}
+  bitmapFontXml: {fileID: 4900000, guid: a1490d5798efe6f45b75697b94f279b5, type: 3}
+  bitmapFontMaterial: {fileID: 2100000, guid: 84478dc743d32f74186a7e31e1028fc2, type: 2}
   glyphHeight: 72
   glyphWidth: 34
   quadHeightScale: 1
   useRexPaintFont: 1
-  IBMGRAPH: {fileID: 4900000, guid: a3098396696b411489c43df4bc1ec83c, type: 3}
-  rexPaintFontMaterial: {fileID: 2100000, guid: 84208f6da01bcc5458aac395d806e346,
+  IBMGRAPH: {fileID: 4900000, guid: 2d62800d870814b44857d694343d43ad, type: 3}
+  rexPaintFontMaterial: {fileID: 2100000, guid: 87be87d65d3c451478cb3644e2c6c439,
     type: 2}
   rexPaintTextureSize: 224
   rexPaintGridSize: 16
@@ -61,7 +61,7 @@ MonoBehaviour:
   rexPaintQuadHeightScale: 1.75
   textureSize: 0
   fontLoaded: 0
---- !u!114 &114000013610232378
+--- !u!114 &2458794350035379967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -70,16 +70,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010750167884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6198a9c52e3051e489933c3ba6434896, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f4de89e35b4ed241951f576ba10a2f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  font: {fileID: 114000012485805544}
+  font: {fileID: 2167987422418258909}
   mainCamera: {fileID: 20000013744435474}
-  displayQuadPrefab: {fileID: 1000010722400042, guid: 0b25ef5045c06464facf157f0df521af,
+  displayQuadPrefab: {fileID: 1000010722400042, guid: 32fa95342f86b3547b7b4cd52a1f8fe6,
     type: 3}
-  backgroundMaterial: {fileID: 2100000, guid: 0c7e276f0922a374c902e5468ffc8ce8, type: 2}
-  background: {fileID: 114000011961259074}
-  foreground: {fileID: 114000013563964176}
+  backgroundMaterial: {fileID: 2100000, guid: dd47c3f9e0c41ed44993953096537e39, type: 2}
+  background: {fileID: 5333362644481684739}
+  foreground: {fileID: 274189775463116797}
   displayWidth: 80
   autoDisplayHeight: 1
   displayHeight: 0
@@ -89,12 +89,12 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 3.0451128
-      outSlope: 3.0451128
+      inSlope: 2
+      outSlope: 2
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
@@ -102,11 +102,11 @@ MonoBehaviour:
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 0
+    m_RotationOrder: 4
   initialized: 0
   clearColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1000010861509900
@@ -118,7 +118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000010188838088}
-  - component: {fileID: 114000014031879530}
+  - component: {fileID: 3646747457160470784}
   m_Layer: 0
   m_Name: Mouse
   m_TagString: Untagged
@@ -140,7 +140,7 @@ Transform:
   m_Father: {fileID: 4000010040037034}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000014031879530
+--- !u!114 &3646747457160470784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,14 +149,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010861509900}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ecc57b986fa74f64d90410580da2a029, type: 3}
+  m_Script: {fileID: 11500000, guid: 41af92ec33f17ec4599d39bdd323165d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hideNativeCursor: 1
   reservedLayer: -1
   cursorUp: "\u2591"
   cursorDown: "\u2588"
-  cursorColor: {r: 1, g: 0.2906977, b: 0.2906977, a: 1}
+  cursorColor: {r: 0.5019608, g: 0, b: 0, a: 1}
   cursorFadeTime: 0.25
   fadeToClear: 1
 --- !u!1 &1000010886032980
@@ -168,7 +168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000012021375218}
-  - component: {fileID: 114000013563964176}
+  - component: {fileID: 274189775463116797}
   m_Layer: 5
   m_Name: Foreground
   m_TagString: Untagged
@@ -190,7 +190,7 @@ Transform:
   m_Father: {fileID: 4000011286441928}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000013563964176
+--- !u!114 &274189775463116797
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010886032980}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75dbc0f80ebb6f342a716eaadcb721c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0046e1816d5f93b4ca2db86262a05a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mesh: {fileID: 0}
@@ -273,7 +273,7 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
-  m_TargetEye: 3
+  m_TargetEye: 0
   m_HDR: 0
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
@@ -331,7 +331,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000012704876012}
-  - component: {fileID: 114000011961259074}
+  - component: {fileID: 5333362644481684739}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -353,7 +353,7 @@ Transform:
   m_Father: {fileID: 4000011286441928}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114000011961259074
+--- !u!114 &5333362644481684739
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,7 +362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013751693194}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75dbc0f80ebb6f342a716eaadcb721c9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0046e1816d5f93b4ca2db86262a05a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mesh: {fileID: 0}
